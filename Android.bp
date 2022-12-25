@@ -1,0 +1,7 @@
+android_app_import {
+    name: "F-Droid",
+    product_specific: true,
+    apk: "F-Droid.apk",
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+    presigned: true,
+}
