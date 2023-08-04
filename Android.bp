@@ -4,4 +4,7 @@ android_app_import {
     apk: "F-Droid.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
     presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
 }
